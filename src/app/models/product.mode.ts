@@ -1,6 +1,6 @@
 export interface Product {
     name: string;
-    price: number;
+    price: string;
     ingredients: object;
     optionsDisplayed?: boolean;
     editingName?: boolean;
