@@ -1,0 +1,113 @@
+.groupsWindow,
+.productsWindow,
+.ingredientsWindow {
+    display: flex;
+}
+
+.productsMagnament {
+    margin: 0 auto;
+    margin-top: calc(50vh - 350px);
+    padding: 10px;
+    width: 1000px;
+    height: 720px;
+}
+
+.productsMagnamentNav {
+    margin: 0 auto;
+    padding: 10px;
+    width: fit-content;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--platinum);
+    border-radius: 50px;
+}
+
+.productsMagnamentMain {
+    padding: 10px 0;
+    height: 100%;
+    display: flex;
+}
+
+.productsMagnamentList {
+    margin-right: 10px;
+    width: 600px;
+    height: 520px;
+    background-color: var(--platinum);
+    overflow-y: auto;
+}
+
+.productsMagnamentPanel {
+    width: 390px;
+    height: 520px;
+}
+
+
+.group {
+    height: 50px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 50px 1fr 50px;
+    background-color: var(--white-smoke);
+    border-radius: 10px;
+    font-size: 3.5rem;
+    transition: all linear .5s;
+}
+
+.moreGroupOptions {
+    width: 200px;
+    height: auto;
+    position: relative;
+    top: -40px;
+    left: 410px;
+    background-color: var(--platinum);
+    z-index: 1;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.moreGroupOptions span {
+    font-size: 2.5rem;
+    color: var(--white-smoke);
+}
+
+.moreGroupOptions button {
+    font-size: 2.5rem;
+}
+
+.group svg {
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
+.group input {
+    position: absolute;
+    width: 480px;
+    text-align: center;
+    border: solid 4px var(--coral);
+    border-radius: 0;
+    outline: 0;
+}
+
+option {
+    font-size: 3.5rem;
+}
+
+.placeholderTutorial {
+    margin-top: 10px;
+    font-size: 2.8rem;
+    opacity: 50%;
+}
+
+.codeee {
+    width: 1000px;
+    height: 100px;
+    position: absolute;
+    background-color: var(--platinum);
+    bottom: 10px;
+    font-size: 2rem;
+    overflow-y: auto;
+}
+
+.unabled  {
+    text-decoration: line-through;
+}
