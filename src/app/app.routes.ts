@@ -3,7 +3,7 @@ import { GroupsComponent } from './pages/groups/groups.component';
 
 export const routes: Routes = [
   {
-    path: 'groups',
+    path: '',
     component: GroupsComponent,
   },
 ];
